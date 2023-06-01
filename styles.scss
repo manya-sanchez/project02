@@ -1,0 +1,12 @@
+$bg-color: #000;        // Background color
+$nav-color: #00ff00;    // Navigation bar color
+
+body {
+  background-color: $bg-color;
+}
+
+.navbar {
+  background-color: $nav-color;
+  padding: 10px;
+  color: #fff;  // White text color for visibility
+}
