@@ -1,5 +1,5 @@
 function searchGiphy() {
-    const apiKey = 'YOUR_API_KEY';
+    const apiKey = 'MzsH7ETDyKkWHRwmi5GXeKGShrE2Ypv0';
     const keyword = document.getElementById('keyword').value;
     const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=10`;
   
