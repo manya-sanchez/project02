@@ -10,3 +10,29 @@ body {
   padding: 10px;
   color: #fff;  // White text color for visibility
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+img {
+  width: 100%;
+}
